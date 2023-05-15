@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+
+
+
+let visiter = prompt("What you want to calculate Enter the No 1)Velocity 2)Distance 3)Time")
+ if(visiter == 1){
+   
+     let dis = prompt("To Find Velocity you have to give two value please enter distance in   m ")
+     let time = prompt("now write time in sec")
+     let rest = dis / time ;
+     document.write("<br><br>"," You can travel at this speed ","  ",rest," m/s ",)
+ }
+ else if (visiter == 2){
+    
+     
+     let vel = prompt("To Find distsnce you have to give two value please enter velocity in  m/s")
+     let time = prompt("now write Time in Sec")
+     let rest = vel * time ;
+     document.write("<br><br>","with given data you can cover","  ",rest," m ",)
+ }
+ else if (visiter == 3){
+    
+
+     let dis = prompt("To Find time you have to give two value please enter distance in   m")
+     let vel = prompt("now write velocity in  m/s")
+     let rest = dis / vel ;
+     document.write("<br><br>","you will reach there in","  ",rest," sec  ",)
+ }
+ else{
+     document.write("Error Select Correct option")
+ }
+    </script>
+</body>
+</html>
